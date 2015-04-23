@@ -12,13 +12,10 @@ gem 'jquery-rails', '~> 4.0.0'
 gem 'turbolinks'
 gem 'therubyracer'
 
-# grape & roar specific
+# grape & rabl specific
 gem 'grape', '~> 0.11'
-gem 'roar', '~> 1.0'
-gem 'virtus', '~> 1.0.4'
-gem 'roar-rails', '~> 1.0'
-gem 'grape-roar', '~> 0.3.0'
 gem 'hashie-forbidden_attributes', '~> 0.1'
+gem 'grape-rabl', '~> 0.3'
 
 group :development, :test do
   gem 'rspec', '~> 3.1'
