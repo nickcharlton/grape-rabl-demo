@@ -1,3 +1,3 @@
 object @user
 
-attributes :name
+attributes :id, :name, :organisation_id, :created_at, :updated_at
