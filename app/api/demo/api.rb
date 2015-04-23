@@ -8,8 +8,10 @@ module Demo
         @users = User.all
       end
 
-      get ':id', rabl: 'users/show' do
-        @user = User.find(params[:id])
+      route_param :id do
+        get rabl: 'users/show' do
+          @user = User.find(params[:id])
+        end
       end
     end
   end
