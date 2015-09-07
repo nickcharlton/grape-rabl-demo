@@ -1,5 +1,7 @@
 # grape-rabl-demo
 
+_This is no longer maintained, but should serve as a useful example._
+
 This is an example using [Grape][] & [Rabl][], hosted inside a [Rails][]
 application to demonstrate building out a basic API. It exposes two models,
 `User` and `Organisation`, with routes hosted at the root (i.e.: `/users`). It
