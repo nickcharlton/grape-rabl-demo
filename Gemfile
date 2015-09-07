@@ -13,7 +13,7 @@ gem 'turbolinks'
 gem 'therubyracer'
 
 # grape & rabl specific
-gem 'grape', '~> 0.11'
+gem 'grape', '~> 0.13'
 gem 'hashie-forbidden_attributes', '~> 0.1'
 gem 'grape-rabl', '~> 0.3'
 
